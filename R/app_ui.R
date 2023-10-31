@@ -14,7 +14,7 @@ app_ui <- function(request) {
       tabsetPanel(
         tabPanel(title = "panel1",
                  "module1"),
-        tabPanel(title = "panel2",
+        tabPanel(title = "CdogR",
                  "module2")
       )
     )
