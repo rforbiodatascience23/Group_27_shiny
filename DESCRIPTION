@@ -1,5 +1,6 @@
 Package: APPyes
 Title: PKG_TITLE
+Title: Replicate central dogma
 Version: 0.0.0.9000
   c(person(given = "Christian",
            family = "Christensen",
