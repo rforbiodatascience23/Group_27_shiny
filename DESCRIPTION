@@ -1,13 +1,25 @@
 Package: APPyes
-Title: An Amazing Shiny App
+Title: PKG_TITLE
 Version: 0.0.0.9000
-Authors@R: 
-    person(given = "firstname",
-           family = "lastname",
-           role = c("aut", "cre"),
-           email = "your@email.com")
-Description: What the package does (one paragraph).
-License: What license is it under?
+Authors@R:
+  c(person(given = "Christian",
+           family = "Christensen",
+           role = c("aut", "cre"), # There must be a "cre", but there can only be one
+           email = "s223096@dtu.dk"), 
+    person(given = "Dea",
+           family = "Bajo",
+           role = "aut",
+           email = "s232105@dtu.dk"),
+    person(given = "Dilan",
+           family = "Cifci",
+           role = "aut",
+           email = "s233597@dtu.dk"),
+    person(given = "Mikkel",
+           family = "Hansen",
+           role = "aut",
+           email = "mikkelpiester@gmail.com")
+Description: PKG_DESC.
+License: MIT + file LICENSE
 Imports: 
     config (>= 0.3.1),
     golem (>= 0.4.1),
