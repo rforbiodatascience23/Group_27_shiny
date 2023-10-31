@@ -14,6 +14,22 @@ RoxygenNote: 7.2.3
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
-Authors@R: person('Mikkel', 'Hansen', email = 'mikkelpiester@gmail.com', role = c('cre', 'aut'))
+Authors@R:
+  c(person(given = "Christian",
+           family = "Christensen",
+           role = c("aut", "cre"), # There must be a "cre", but there can only be one
+           email = "s223096@dtu.dk"), 
+    person(given = "Dea",
+           family = "Bajo",
+           role = "aut",
+           email = "s232105@dtu.dk"),
+    person(given = "Dilan",
+           family = "Cifci",
+           role = "aut",
+           email = "s233597@dtu.dk"),
+    person(given = "Mikkel",
+           family = "Hansen",
+           role = "aut",
+           email = "mikkelpiester@gmail.com")
 URL: https://github.com/rforbiodatascience23/Group_27_shiny/
 BugReports: https://github.com/rforbiodatascience23/Group_27_shiny//issues
