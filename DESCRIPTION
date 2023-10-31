@@ -1,9 +1,22 @@
 Package: APPyes
 Title: PKG_TITLE
 Version: 0.0.0.9000
-Authors@R: c(
- .
-      )
+  c(person(given = "Christian",
+           family = "Christensen",
+           role = c("aut", "cre"), # There must be a "cre", but there can only be one
+           email = "s223096@dtu.dk"), 
+    person(given = "Dea",
+           family = "Bajo",
+           role = "aut",
+           email = "s232105@dtu.dk"),
+    person(given = "Dilan",
+           family = "Cifci",
+           role = "aut",
+           email = "s233597@dtu.dk"),
+    person(given = "Mikkel",
+           family = "Hansen",
+           role = "aut",
+           email = "mikkelpiester@gmail.com")
 Description: PKG_DESC.
 License: MIT + file LICENSE
 Imports: 
